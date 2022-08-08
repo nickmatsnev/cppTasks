@@ -1,0 +1,129 @@
+Source folder contents: 
+source/file1 type:0
+source/folder1/file2 type:0
+source/folder1/folder2/file3 type:0
+source/folder1/folder2/folder3/file4 type:0
+source/folder1/folder2/folder3/file5 type:0
+source/folder1/folder2/folder3 type:1
+source/folder1/folder2 type:1
+source/folder1 type:1
+content: file1 replica 0
+content: file2 replica/folder1 0
+content: file3 replica/folder1/folder2 0
+content: file4 replica/folder1/folder2/folder3 0
+content: file5 replica/folder1/folder2/folder3 0
+content: folder3 replica/folder1/folder2 1
+content: folder2 replica/folder1 1
+content: folder1 replica 1
+item: file1 source 0
+item: file2 folder1 0
+item: file3 folder1/folder2 0
+item: file4 folder1/folder2/folder3 0
+item: file5 folder1/folder2/folder3 0
+item: folder3 folder1/folder2 1
+item: folder2 folder1 1
+item: folder1 source 1
+Command rm replica/file1 was performed
+File replica/file1 was deleted
+Command rm replica/file2 was performed
+File replica/file2 was deleted
+Command rm replica/file3 was performed
+File replica/file3 was deleted
+Command rm replica/file4 was performed
+File replica/file4 was deleted
+Command rm replica/file5 was performed
+File replica/file5 was deleted
+Command rm -r replica/folder3 was performed
+Folder replica/folder3 was deleted
+Command rm -r replica/folder2 was performed
+Folder replica/folder2 was deleted
+Command rm -r replica/folder1 was performed
+Folder replica/folder1 was deleted
+Replica folder was successfully updated at : 7-8-2022 19:29:6
+-----------------------------------------------------
+Source folder contents: 
+source/file1 type:0
+source/folder1/file2 type:0
+source/folder1/folder2/file3 type:0
+source/folder1/folder2/folder3/file4 type:0
+source/folder1/folder2/folder3/file5 type:0
+source/folder1/folder2/folder3 type:1
+source/folder1/folder2 type:1
+source/folder1 type:1
+item: file1 source 0
+item: file2 folder1 0
+item: file3 folder1/folder2 0
+item: file4 folder1/folder2/folder3 0
+item: file5 folder1/folder2/folder3 0
+item: folder3 folder1/folder2 1
+item: folder2 folder1 1
+item: folder1 source 1
+Command cp -r source/. replica was performed
+Folder replica was updated
+Replica folder was successfully updated at : 7-8-2022 19:29:16
+-----------------------------------------------------
+Source folder contents: 
+source/file1 type:0
+source/folder1/file2 type:0
+source/folder1/folder2/file3 type:0
+source/folder1/folder2/folder3/file4 type:0
+source/folder1/folder2/folder3/file5 type:0
+source/folder1/folder2/folder3 type:1
+source/folder1/folder2 type:1
+source/folder1 type:1
+content: file1 replica 0
+content: file2 replica/folder1 0
+content: file3 replica/folder1/folder2 0
+content: file4 replica/folder1/folder2/folder3 0
+content: file5 replica/folder1/folder2/folder3 0
+content: folder3 replica/folder1/folder2 1
+content: folder2 replica/folder1 1
+content: folder1 replica 1
+item: file1 source 0
+item: file2 folder1 0
+item: file3 folder1/folder2 0
+item: file4 folder1/folder2/folder3 0
+item: file5 folder1/folder2/folder3 0
+item: folder3 folder1/folder2 1
+item: folder2 folder1 1
+item: folder1 source 1
+Command rm replica/file1 was performed
+File replica/file1 was deleted
+Command rm replica/file2 was performed
+File replica/file2 was deleted
+Command rm replica/file3 was performed
+File replica/file3 was deleted
+Command rm replica/file4 was performed
+File replica/file4 was deleted
+Command rm replica/file5 was performed
+File replica/file5 was deleted
+Command rm -r replica/folder3 was performed
+Folder replica/folder3 was deleted
+Command rm -r replica/folder2 was performed
+Folder replica/folder2 was deleted
+Command rm -r replica/folder1 was performed
+Folder replica/folder1 was deleted
+Replica folder was successfully updated at : 7-8-2022 22:0:48
+-----------------------------------------------------
+Source folder contents: 
+Source folder contents: 
+source/file1 type:0
+source/folder1/file2 type:0
+source/folder1/folder2/file3 type:0
+source/folder1/folder2/folder3/file4 type:0
+source/folder1/folder2/folder3/file5 type:0
+source/folder1/folder2/folder3 type:1
+source/folder1/folder2 type:1
+source/folder1 type:1
+item: file1 source 0
+item: file2 folder1 0
+item: file3 folder1/folder2 0
+item: file4 folder1/folder2/folder3 0
+item: file5 folder1/folder2/folder3 0
+item: folder3 folder1/folder2 1
+item: folder2 folder1 1
+item: folder1 source 1
+Command cp -r source/. replica was performed
+Folder replica was updated
+Replica folder was successfully updated at : 7-8-2022 22:2:46
+-----------------------------------------------------

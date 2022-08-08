@@ -1,0 +1,18 @@
+New Probe:
+PID(it is for the sake of knowing that the file has been updated): 859
+CPU Usage: 0%
+Resident Set Size: 0KB
+Virtual Memory Size: 13964KB
+Total Memory Usage: 13964KB
+Open Handles: 12
+Date and Time: 8-8-2022 1:56:57
+-----------------------------------------------------
+New Probe:
+PID(it is for the sake of knowing that the file has been updated): 960
+CPU Usage: 0%
+Resident Set Size: 0KB
+Virtual Memory Size: 13964KB
+Total Memory Usage: 13964KB
+Open Handles: 12
+Date and Time: 8-8-2022 2:0:34
+-----------------------------------------------------

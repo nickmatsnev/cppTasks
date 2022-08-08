@@ -1,0 +1,43 @@
+Source folder contents: 
+secondTask/source/file1 type:0
+secondTask/source/folder1/file2 type:0
+secondTask/source/folder1/folder2/file3 type:0
+secondTask/source/folder1/folder2/folder3/file4 type:0
+secondTask/source/folder1/folder2/folder3/file5 type:0
+secondTask/source/folder1/folder2/folder3 type:1
+secondTask/source/folder1/folder2 type:1
+secondTask/source/folder1 type:1
+content: file1 secondTask/replica 0
+content: file2 secondTask/replica/folder1 0
+content: file3 secondTask/replica/folder1/folder2 0
+content: file4 secondTask/replica/folder1/folder2/folder3 0
+content: file5 secondTask/replica/folder1/folder2/folder3 0
+content: folder3 secondTask/replica/folder1/folder2 1
+content: folder2 secondTask/replica/folder1 1
+content: folder1 secondTask/replica 1
+item: file1 source 0
+item: file2 source/folder1 0
+item: file3 source/folder1/folder2 0
+item: file4 source/folder1/folder2/folder3 0
+item: file5 source/folder1/folder2/folder3 0
+item: folder3 source/folder1/folder2 1
+item: folder2 source/folder1 1
+item: folder1 source 1
+Command rm secondTask/replica/file1 was performed
+File secondTask/replica/file1 was deleted
+Command rm secondTask/replica/file2 was performed
+File secondTask/replica/file2 was deleted
+Command rm secondTask/replica/file3 was performed
+File secondTask/replica/file3 was deleted
+Command rm secondTask/replica/file4 was performed
+File secondTask/replica/file4 was deleted
+Command rm secondTask/replica/file5 was performed
+File secondTask/replica/file5 was deleted
+Command rm -r secondTask/replica/folder3 was performed
+Folder secondTask/replica/folder3 was deleted
+Command rm -r secondTask/replica/folder2 was performed
+Folder secondTask/replica/folder2 was deleted
+Command rm -r secondTask/replica/folder1 was performed
+Folder secondTask/replica/folder1 was deleted
+Replica folder was successfully updated at : 8-8-2022 1:53:37
+-----------------------------------------------------
